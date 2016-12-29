@@ -25,4 +25,4 @@ gulp.task('watch', function(){
     gulp.watch('./js/*.js', ['scripts']);
 });
 
-gulp.task('default', ['sass', 'scripts','images', 'watch']);
+gulp.task('default', ['sass', 'watch']);
