@@ -1,0 +1,25 @@
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-hide {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  color: transparent;
+  text-shadow: none;
+}
+
+.text-truncate {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
