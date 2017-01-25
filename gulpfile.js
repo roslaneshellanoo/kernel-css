@@ -7,7 +7,7 @@ var rename = require('gulp-rename');
 
 // Sass
 gulp.task('sass', function(){
-    return sass('./sass/style.scss', { sourcemap: true, style: 'compact'})
+    return sass('./src/style.scss', { sourcemap: true, style: 'compact'})
     //.pipe(stripCssComments())
         .pipe(autoprefixer())
         .pipe(sourcemaps.write('.'))
@@ -21,7 +21,7 @@ gulp.task('sass', function(){
 
 // Watch
 gulp.task('watch', function(){
-    gulp.watch('./sass/**/*.scss', ['sass']);
+    gulp.watch('./src/**/*.scss', ['sass']);
     gulp.watch('./js/*.js', ['scripts']);
 });
 

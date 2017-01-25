@@ -1,0 +1,222 @@
+
+// Font Sizes
+
+$f9: 9px;
+$f11: 11px;
+$f12: 12px;
+$f14: 14px;
+$f15: 15px;
+$f16: 16px;
+$f17: 17px;
+$f18: 18px;
+$f19: 19px;
+$f20: 20px;
+$f22: 22px;
+$f23: 23px;
+$f24: 24px;
+$f26: 26px;
+$f28: 28px;
+$f30: 30px;
+$f32: 32px;
+$f34: 34px;
+$f36: 36px;
+$f38: 38px;
+$f40: 40px;
+$f42: 42px;
+$f44: 44px;
+$f46: 46px;
+$f48: 48px;
+$f56: 56px;
+$f60: 60px;
+
+
+.f12 {
+  font-size: $f12;
+}
+
+.f14 {
+  font-size: $f14;
+}
+
+.f15 {
+  font-size: $f15;
+}
+
+.f16 {
+  font-size: $f16;
+}
+
+.f17 {
+  font-size: $f17;
+}
+
+.f18 {
+  font-size: $f18;
+}
+
+.f19 {
+  font-size: $f19;
+}
+
+.f20 {
+  font-size: $f20;
+}
+
+.f22 {
+  font-size: $f22;
+}
+
+.f24 {
+  font-size: $f24;
+}
+
+.f26 {
+  font-size: $f26;
+}
+
+.f28 {
+  font-size: $f28;
+}
+
+.f30 {
+  font-size: $f30;
+}
+
+.f32{
+  font-size: $f32;
+}
+
+.f34 {
+  font-size: $f34;
+}
+
+.f36 {
+  font-size: $f36;
+}
+
+.f38 {
+  font-size: $f38;
+}
+
+
+.f40 {
+  font-size: $f40;
+}
+
+.f42 {
+  font-size: $f42;
+}
+
+
+.f48 {
+  font-size: $f48;
+}
+
+.f56 {
+  font-size: $f56;
+}
+
+.f60 {
+  font-size: $f60;
+}
+
+.f88 {
+  font-size: 88px;
+}
+
+
+
+// Mobile-fonts
+
+@media (max-width: 47.99em) {
+
+  .m-bolder {
+    font-weight: 900;
+  }
+
+  .m-f9 {
+    font-size: $f11;
+  }
+
+  .m-f11 {
+    font-size: $f11;
+  }
+
+
+  .m-f12 {
+    font-size: $f12;
+  }
+
+  .m-f14 {
+    font-size: $f14;
+  }
+
+  .m-f15 {
+    font-size: $f15;
+  }
+
+  .m-f16 {
+    font-size: $f16;
+  }
+
+  .m-f17 {
+    font-size: $f17;
+  }
+
+  .m-f18 {
+    font-size: $f18;
+  }
+
+  .m-f19 {
+    font-size: $f19;
+  }
+
+  .m-f20 {
+    font-size: $f20;
+  }
+
+  .m-f22 {
+    font-size: $f22;
+  }
+
+  .m-f23 {
+    font-size: $f23;
+  }
+
+  .m-f24 {
+    font-size: $f24;
+  }
+
+  .m-f26 {
+    font-size: $f26;
+  }
+
+  .m-f28 {
+    font-size: $f28;
+  }
+
+  .m-f30 {
+    font-size: $f30;
+  }
+  .m-f32 {
+    font-size: $f32;
+  }
+  .m-f34 {
+    font-size: $f34;
+  }
+
+  .m-f40 {
+    font-size: $f40;
+  }
+
+  .m-f48 {
+    font-size: $f48;
+  }
+  .m-f60 {
+    font-size: $f60;
+  }
+
+  .m-f88 {
+    font-size: 88px;
+  }
+}
