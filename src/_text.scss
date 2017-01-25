@@ -23,3 +23,35 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+
+
+@media (max-width: 47.99em) {
+
+  .m-text-left {
+    text-align: left;
+  }
+
+  .m-text-center {
+    text-align: center;
+  }
+
+  .m-text-right {
+    text-align: right;
+  }
+
+  .m-text-hide {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: transparent;
+    text-shadow: none;
+  }
+
+  .m-text-truncate {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+}
